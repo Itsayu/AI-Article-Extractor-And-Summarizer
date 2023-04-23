@@ -1,4 +1,5 @@
 import React from "react";
+import "./Hero.css";
 
 import { logo } from "../assets";
 
@@ -6,7 +7,7 @@ const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+        <img src={logo} alt='SAWO_logo' className='w-28 object-contain' style={{width:"12rem"}} />
 
         <button
           type='button'
