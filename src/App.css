@@ -84,7 +84,9 @@
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  /* @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent; */
+  /* #007bff */
+  @apply bg-gradient-to-r from-purple-500 via-violet-600 to-cyan-500 bg-clip-text text-transparent;
 }
 
 .desc {
